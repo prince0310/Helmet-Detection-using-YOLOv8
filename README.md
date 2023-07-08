@@ -154,6 +154,9 @@ results = model("helmet.mp4")  # predict on an image
 ```
 Result on predition can be shown 
 
-https://github.com/prince0310/Helmet-Detection-using-YOLOv8/assets/85225054/59c93bde-f158-4448-bf22-c72da45cbdd3
+
+
+https://github.com/prince0310/Helmet-Detection-using-YOLOv8/assets/85225054/848a8219-b3c0-4293-823c-13046415fb79
+
 
 
