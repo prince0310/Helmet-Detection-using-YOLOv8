@@ -1,4 +1,4 @@
-# 🔍 Helmet Detection using YOLOv8 💡
+# 🪖 Helmet 🪖 Detection using YOLOv8 💡
 
 ### Introduction 🌟
 
@@ -122,15 +122,21 @@ To appraise the sheer brilliance of your trained model, embark on this captivati
 Congratulations on mastering the art of helmet detection using the magical YOLOv8 algorithm! By following these meticulously crafted steps, you have unlocked the ability to train a YOLOv8 model that gracefully identifies helmets in images or video streams. Brace yourself for remarkable applications, such as safety monitoring in construction sites, sports, or industrial environments. Remember, like an artist refining their masterpiece, fine-tune the model and experiment with different hyperparameters to achieve breathtaking performance tailored to your specific use case. Embrace the beauty of helmet detection and continue pushing the boundaries of what is possible! 🌟✨
 
 
-#### You can also skip all these steps and use prediction on the weight trained on Roboflow dataset used in this repositoray.</font>
+## You can also skip all these steps and use prediction on the weight trained on Roboflow dataset used in this repositoray.</font> 🪖🪖🪖🪖🪖🪖
 
 #### CLI
 
 YOLOv8 may be used directly in the Command Line Interface (CLI) with a `yolo` command:
 
+clone this repository in personal machine 
 ```bash
-git clone 
+git clone https://github.com/prince0310/Helmet-Detection-using-YOLOv8.git
 ```
+Move into the folder Helmet-Detection-using-YOLOv8
+```bash
+cd Helmet-Detection-using-YOLOv8
+```
+Start prediction on video 
 ```bash
 yolo predict model=best.pt source="helmet.mp4"
 ```
