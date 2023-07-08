@@ -86,6 +86,7 @@ Once your model is prepared to showcase its talents, follow these enchanting ste
 * With an artistic touch, visualize the detected helmets by adorning the input images or video frames with elegant bounding boxes. 🎨🖼️
 * Optionally, capture the essence of the moment by preserving the output images or videos, immortalizing the marvels of detected helmets. 📸📹
   
+<font style="color:green">You can also skip all these steps and use prediction on the weight trained on Roboflow dataset used in this repositoray.</font>
 
 #### CLI
 
@@ -121,5 +122,28 @@ To appraise the sheer brilliance of your trained model, embark on this captivati
 Congratulations on mastering the art of helmet detection using the magical YOLOv8 algorithm! By following these meticulously crafted steps, you have unlocked the ability to train a YOLOv8 model that gracefully identifies helmets in images or video streams. Brace yourself for remarkable applications, such as safety monitoring in construction sites, sports, or industrial environments. Remember, like an artist refining their masterpiece, fine-tune the model and experiment with different hyperparameters to achieve breathtaking performance tailored to your specific use case. Embrace the beauty of helmet detection and continue pushing the boundaries of what is possible! 🌟✨
 
 
+#### You can also skip all these steps and use prediction on the weight trained on Roboflow dataset used in this repositoray.</font>
 
+#### CLI
+
+YOLOv8 may be used directly in the Command Line Interface (CLI) with a `yolo` command:
+
+```bash
+git clone 
+```
+```bash
+yolo predict model=best.pt source="helmet.mp4"
+```
+
+#### Python
+
+```python
+from ultralytics import YOLO
+
+# Load a model
+model = YOLO("best.pt")  # load a pretrained model (recommended for training)
+
+# Use the model
+results = model("helmet.mp4")  # predict on an image
+```
 
